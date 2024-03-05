@@ -1,4 +1,4 @@
-import EMS
+from EMS import EMS
 
 ems_runner = EMS()
 
