@@ -38,39 +38,42 @@ class EMS:
             print("Until next time. Goodbye!")
         else:
             print("You made an incorrect choice")
+            print("")
             self.EMS_menu()
         
     def add_employee(self):
         first_name = input("Enter employee's first name: ")
         last_name = input("Enter employee's last name: ")
-        date_of_employmemt = input("Enter employee's date of employment: ")
+        date_of_employment = input("Enter employee's date of employment: ")
         salary = input("Enter employee's annual salary: ")
         department = input("Enter the department name the employee works in: ")
 
-        print("")
-        print("Employee has been added successfully")
-        print("")
+        Employee.add_employee(first_name, last_name, date_of_employment,
+                              salary, department)
+
+        
 
     def update_employee(self):
+        id_number = input("Enter the employee's id number: ")
         first_name = input("Enter employee's first name: ")
         last_name = input("Enter employee's last name: ")
-        date_of_employmemt = input("Enter employee's date of employment: ")
+        date_of_employment = input("Enter employee's date of employment: ")
         salary = input("Enter employee's annual salary: ")
         department = input("Enter the department name the employee works in: ")
         
-        print("")
-        print("Employee has been updated successfully")
-        print("")
+        Employee.update_employee(id_number, first_name, last_name,
+                                 date_of_employment, salary, department)
+        
 
     def remove_employee(self):
         id_number = input("Enter employee's id #: ")
-        
-        print("")
-        print("Employee has been removed successfully")
-        print("")
+
+        Employee.remove_employee(id_number)
+
 
     def get_employees_info(self):
-        print("Employee's information ")
-        print("")
+        id_number = input("Enter employee's id #: ")
+
+        Employee.get_employee_info(id_number)
 
     
