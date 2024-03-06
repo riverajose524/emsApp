@@ -1,4 +1,4 @@
-#import Employee
+from Employee import Employee
 
 
 class EMS:
@@ -15,7 +15,7 @@ class EMS:
         print("* 1: Add employee                        *")
         print("* 2: Update employee                     *")
         print("* 3: Remove employee                     *")
-        print("* 4: Get all employees' information      *")
+        print("* 4: Get an employee's information       *")
         print("* 5: Exit                                *")
         print("******************************************")
 
@@ -32,7 +32,7 @@ class EMS:
             self.remove_employee()
             self.EMS_menu()
         elif choice == "4":
-            self.get_all_employees_info()
+            self.get_employees_info()
             self.EMS_menu()
         elif choice == "5":
             print("Until next time. Goodbye!")
@@ -69,8 +69,8 @@ class EMS:
         print("Employee has been removed successfully")
         print("")
 
-    def get_all_employees_info(self):
-        print("List of all employees...")
+    def get_employees_info(self):
+        print("Employee's information ")
         print("")
 
     
