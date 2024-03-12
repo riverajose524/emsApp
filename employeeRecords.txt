@@ -1,1 +1,1 @@
-Id: 1 (First Name: Jose, Last Name: Rivera, Date of Employment: 05/24/1996, Salary: 65000, Department: IT)
+Id: 2 (First Name: Nicolle, Last Name: Vargas, Date of Employment: 05/28/98, Salary: 900000, Department: (Name: Accounting, Budget: 700000, Phone Number: 8626861945))

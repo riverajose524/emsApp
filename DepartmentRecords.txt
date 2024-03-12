@@ -1,0 +1,3 @@
+Name: IT, Budget: 65000, Phone Number: 8626001532
+Name: Accounting, Budget: 700000, Phone Number: 8626861945
+Name: Marketing, Budget: 80000, Phone Number: 9734834716
